@@ -1,0 +1,12 @@
+{
+  "have_sys_un_h": false, 
+  "zmq_prefix": "", 
+  "no_libzmq_extension": false, 
+  "libzmq_extension": true, 
+  "bdist_egg": {}, 
+  "skip_check_zmq": false, 
+  "build_ext": {
+    "library_dirs": "/usr/local/lib", 
+    "include_dirs": "/usr/local/include"
+  }
+}

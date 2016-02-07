@@ -1,0 +1,3 @@
+#!C:\WinPython\install\WinPython-64bit-2.7.6.1\python-2.7.6.amd64\python.exe
+from qwt import tests
+tests.run()

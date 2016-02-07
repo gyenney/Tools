@@ -1,0 +1,211 @@
+
+# **************************************************************************
+
+version : MinGW-W64-builds-4.2.0
+user    : ckl-01
+date    : 06.10.2015- 1:23:54 AM
+args    : --mode=gcc-4.9.2 --static-gcc --arch=i686 --march-x32=pentium4 --mtune-x32=generic --buildroot=/tmp/i686 --rev=201506 --rt-version=trunk --threads=win32 --exceptions=sjlj --enable-languages=c,c++,fortran --bootstrap --no-multilib --bin-compress
+PATH    : ./:/usr/local/bin:/usr/bin:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0
+
+# **************************************************************************
+
+host gcc 32-bit:
+Using built-in specs.
+COLLECT_GCC=D:\msys64\home\ckl-01\mingw-builds-c9c3fe3\toolchains\mingw32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=D:/msys64/home/ckl-01/mingw-builds-c9c3fe3/toolchains/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.8.4/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-4.8.4/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw484/i686-484-win32-sjlj-rt_v3-rev0/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --enable-targets=all --enable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libgomp --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-sjlj-exceptions --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch-32=i686 --with-arch-64=nocona --with-tune-32=generic --with-tune-64=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw484/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw484/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw484/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw484/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw484/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-win32-sjlj-rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw484/i686-484-win32-sjlj-rt_v3-rev0/mingw32/opt/include -I/c/mingw484/prerequisites/i686-zlib-static/include -I/c/mingw484/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw484/i686-484-win32-sjlj-rt_v3-rev0/mingw32/opt/include -I/c/mingw484/prerequisites/i686-zlib-static/include -I/c/mingw484/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw484/i686-484-win32-sjlj-rt_v3-rev0/mingw32/opt/lib -L/c/mingw484/prerequisites/i686-zlib-static/lib -L/c/mingw484/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: win32
+gcc version 4.8.4 (i686-win32-sjlj-rev0, Built by MinGW-W64 project) 
+
+# **************************************************************************
+
+host gcc 64-bit:
+Using built-in specs.
+COLLECT_GCC=D:\msys64\home\ckl-01\mingw-builds-c9c3fe3\toolchains\mingw64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=D:/msys64/home/ckl-01/mingw-builds-c9c3fe3/toolchains/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.4/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-4.8.4/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw484/x86_64-484-win32-seh-rt_v3-rev0/mingw64 --with-gxx-include-dir=/mingw64/x86_64-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libgomp --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw484/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw484/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw484/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw484/prerequisites/x86_64-w64-mingw32-static --with-cloog=/c/mingw484/prerequisites/x86_64-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='x86_64-win32-seh-rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw484/x86_64-484-win32-seh-rt_v3-rev0/mingw64/opt/include -I/c/mingw484/prerequisites/x86_64-zlib-static/include -I/c/mingw484/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw484/x86_64-484-win32-seh-rt_v3-rev0/mingw64/opt/include -I/c/mingw484/prerequisites/x86_64-zlib-static/include -I/c/mingw484/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw484/x86_64-484-win32-seh-rt_v3-rev0/mingw64/opt/lib -L/c/mingw484/prerequisites/x86_64-zlib-static/lib -L/c/mingw484/prerequisites/x86_64-w64-mingw32-static/lib '
+Thread model: win32
+gcc version 4.8.4 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 
+
+# **************************************************************************
+
+host ld 32-bit:
+GNU ld (GNU Binutils) 2.24
+  Supported emulations:
+   i386pe
+   i386pep
+
+# **************************************************************************
+
+host ld 64-bit:
+GNU ld (GNU Binutils) 2.24
+  Supported emulations:
+   i386pep
+   i386pe
+
+# **************************************************************************
+
+name         : i686-libiconv-static
+type         : .tar.gz
+version      : 1.14
+url          : https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz
+patches      : libiconv/0001-compile-relocatable-in-gnulib.mingw.patch, libiconv/0002-fix-cr-for-awk-in-configure.all.patch
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-libiconv-static --enable-static --disable-shared CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : -zlib-1.2.8-static
+type         : .tar.gz
+version      : 1.2.8
+url          : http://sourceforge.net/projects/libpng/files/zlib/1.2.8/zlib-1.2.8.tar.gz
+patches      : zlib/01-zlib-1.2.7-1-buildsys.mingw.patch, zlib/02-no-undefined.mingw.patch, zlib/03-dont-put-sodir-into-L.mingw.patch, zlib/04-wrong-w8-check.mingw.patch, zlib/05-fix-a-typo.mingw.patch
+configuration: --prefix=/tmp/i686/prerequisites/-zlib-static --static
+
+# **************************************************************************
+
+name         : i686-gmp-6.0.0-static
+type         : .tar.bz2
+version      : 6.0.0
+url          : https://gmplib.org/download/gmp/gmp-6.0.0a.tar.bz2
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static --enable-static --disable-shared --enable-cxx CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-mpfr-3.1.2-static
+type         : .tar.bz2
+version      : 3.1.2
+url          : https://ftp.gnu.org/gnu/mpfr/mpfr-3.1.2.tar.bz2
+patches      : mpfr/mpfr-3.1.2-p1.patch, mpfr/mpfr-3.1.2-p2.patch, mpfr/mpfr-3.1.2-p3.patch, mpfr/mpfr-3.1.2-p4.patch, mpfr/mpfr-3.1.2-p5.patch, mpfr/mpfr-3.1.2-p6.patch, mpfr/mpfr-3.1.2-p7.patch, mpfr/mpfr-3.1.2-p8.patch, mpfr/mpfr-3.1.2-p9.patch, mpfr/mpfr-3.1.2-p10.patch, mpfr/mpfr-3.1.2-p11.patch
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static --enable-static --disable-shared --with-gmp=/tmp/i686/prerequisites/i686-w64-mingw32-static CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-mpc-1.0.3-static
+type         : .tar.gz
+version      : 1.0.3
+url          : http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static --enable-static --disable-shared --with-gmp=/tmp/i686/prerequisites/i686-w64-mingw32-static --with-mpfr=/tmp/i686/prerequisites/i686-w64-mingw32-static CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-isl-0.12.2-static
+type         : .tar.lzma
+version      : 0.12.2
+url          : http://isl.gforge.inria.fr/isl-0.12.2.tar.lzma
+patches      : isl/isl-0.12-no-undefined.patch
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static --enable-static --disable-shared --with-gmp-prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-cloog-0.18.1-static
+type         : .tar.gz
+version      : 0.18.1
+url          : http://www.bastoul.net/cloog/pages/download/count.php3?url=./cloog-0.18.1.tar.gz
+patches      : cloog/cloog-0.18.1-no-undefined.patch
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static --enable-static --disable-shared --with-gmp-prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static --with-bits=gmp --with-isl=system --with-isl-prefix=/tmp/i686/prerequisites/i686-w64-mingw32-static CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-mingw-w64-headers-v4-nomulti
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/runtime/i686-mingw-w64-v4-nomulti --enable-sdk=all --enable-secure-api CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-mingw-w64-crt-v4-nomulti
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/runtime/i686-mingw-w64-v4-nomulti --with-sysroot=/tmp/i686/runtime/i686-mingw-w64-v4-nomulti --enable-lib32 --disable-lib64 --enable-wildcard CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : -winpthreads-v4
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/runtime/-winpthreads-v4 --enable-static --disable-shared CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : i686-binutils-2.25-nomulti
+type         : .tar.bz2
+version      : 2.25
+url          : https://ftp.gnu.org/gnu/binutils/binutils-2.25.tar.bz2
+patches      : binutils/0001-enable-gold-on.mingw32.patch, binutils/0002-check-for-unusual-file-harder.patch, binutils/0008-fix-libiberty-makefile.mingw.patch, binutils/0009-fix-libiberty-configure.mingw.patch, binutils/0110-binutils-mingw-gnu-print.patch, binutils/9ac47a4.diff, binutils/27aaeda.diff, binutils/a93d5cb.diff
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/prerequisites/i686-binutils-nomulti --with-sysroot=/tmp/i686/runtime/i686-mingw-w64-nomulti --disable-multilib --enable-lto --enable-plugins --enable-gold --enable-install-libiberty --with-libiconv-prefix=/tmp/i686/prerequisites/i686-libiconv-static --disable-rpath --disable-nls --disable-shared --enable-static --disable-shared CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware"
+
+# **************************************************************************
+
+name         : gcc-4.9.2
+type         : .tar.bz2
+version      : 4.9.2
+url          : https://ftp.gnu.org/gnu/gcc/gcc-4.9.2/gcc-4.9.2.tar.bz2
+patches      : gcc/gcc-4.7-stdthreads.patch, gcc/gcc-4.8-iconv.patch, gcc/gcc-4.8-libstdc++export.patch, gcc/gcc-4.9.0-libatomic-cygwin.patch, gcc/gcc-4.8.2-build-more-gnattools.mingw.patch, gcc/gcc-4.8.2-dont-escape-arguments-that-dont-need-it-in-pex-win32.c.patch, gcc/gcc-4.8.2-fix-for-windows-not-minding-non-existant-parent-dirs.patch, gcc/gcc-4.8.2-windows-lrealpath-no-force-lowercase-nor-backslash.patch, gcc/gcc-4.9.0-pr-57440.patch, gcc/gcc-4.8-filename-output.patch, gcc/ktietz-libgomp.patch, gcc/libgomp_ftime64.patch
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-static --disable-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-sjlj-exceptions --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=pentium4 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/tmp/i686/prerequisites/i686-w64-mingw32-static --with-mpfr=/tmp/i686/prerequisites/i686-w64-mingw32-static --with-mpc=/tmp/i686/prerequisites/i686-w64-mingw32-static --with-isl=/tmp/i686/prerequisites/i686-w64-mingw32-static --with-cloog=/tmp/i686/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion="i686-win32-sjlj-rev201506, mingwpy build" --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware"
+
+# **************************************************************************
+
+name         : libmangle-v4
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : gendef-v4
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 --with-mangle=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : genidl-v4
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : genpeimg-v4
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : widl-v4
+type         : 
+version      : 
+url          : 
+patches      : 
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --prefix=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CXXFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" CPPFLAGS="" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib"
+
+# **************************************************************************
+
+name         : make-4.1
+type         : .tar.bz2
+version      : 4.1
+url          : https://ftp.gnu.org/gnu/make/make-4.1.tar.bz2
+patches      : make/make-linebuf-mingw.patch, make/make-getopt.patch
+configuration: --host=i686-w64-mingw32 --build=i686-w64-mingw32 --prefix=/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32 --enable-case-insensitive-file-system --program-prefix=mingw32- --enable-job-server --without-guile CFLAGS="-O2 -pipe -I/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/include -I/tmp/i686/prerequisites/i686-zlib-static/include -I/tmp/i686/prerequisites/i686-w64-mingw32-static/include" LDFLAGS="-pipe -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib -L/tmp/i686/prerequisites/i686-zlib-static/lib -L/tmp/i686/prerequisites/i686-w64-mingw32-static/lib -L/tmp/i686/i686-492-win32-sjlj-rt_v4-rev201506-s/mingw32/opt/lib"
+
+# **************************************************************************
+

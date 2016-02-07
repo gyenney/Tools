@@ -1,0 +1,7 @@
+#!D:\Winpython\basedir27\build\winpython-2.7.10\python-2.7.10\python.exe
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()

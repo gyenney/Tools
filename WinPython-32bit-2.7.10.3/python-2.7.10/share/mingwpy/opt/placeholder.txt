@@ -1,0 +1,6 @@
+This folder should be populated with supplementary libraries for usage with mingwpy.
+To helpp gcc to find this folder automagically without the need of additional flags 
+or environment variables the *absolut PATH* to this folder has to be given to 
+"*local_prefix" in the gcc specs. Please use shlashes as path seperator and 
+blackslashes to augument slahses in the PATH string. 
+The string given to "*local_prefix" must end with an slash.

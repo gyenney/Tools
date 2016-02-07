@@ -1,0 +1,6 @@
+*.html
+*.png
+*.pyc
+*.svg
+.python_history
+typescript

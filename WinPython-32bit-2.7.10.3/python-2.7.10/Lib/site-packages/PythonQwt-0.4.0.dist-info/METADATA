@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: PythonQwt
+Version: 0.4.0
+Summary: Qt plotting widgets for Python
+Home-page: https://github.com/PierreRaybaut/PythonQwt
+Author: Pierre Raybaut
+Author-email: pierre.raybaut@gmail.com
+License: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Widget Sets
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires: PyQt4 (>4.3)
+
+The ``PythonQwt`` project was initiated to solve -at least temporarily- the 
+obsolescence issue of `PyQwt` (the Python-Qwt C++ bindings library) which is 
+no longer maintained. The idea was to translate the original Qwt C++ code to 
+Python and then to optimize some parts of the code by writing new modules 
+based on NumPy and other libraries.
+
+The ``PythonQwt`` package consists of a single Python package named `qwt` 
+which is a pure Python implementation of Qwt C++ library with some 
+limitations: efforts were concentrated on basic plotting features, leaving 
+higher level features to the `guiqwt` library.
+
