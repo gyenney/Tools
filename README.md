@@ -19,4 +19,5 @@ To create an updatable local copy of the environment (recommended), you will nee
 
 
 Download Tool environment updates using 'git pull'.
-        /MyFolder/Tools/>  git pull
+
+          /MyFolder/Tools/>  git pull
