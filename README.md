@@ -10,5 +10,6 @@ Instructions:
    3.  Clone the repository to create a self-contained portable programming environment.
         /MyFolder/>  git clone https://gyenney/Tools
 
+
    Download Tool environment updates using 'git pull'.
         /MyFolder/Tools/>  git pull
