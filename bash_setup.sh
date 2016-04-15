@@ -12,6 +12,7 @@ PATH=$toolsdir/PortableGit:$PATH
 PATH=$toolsdir/WinPython-32bit-2.7.10.3:$PATH
 PATH=$toolsdir/WinPython-32bit-2.7.10.3/Python-2.7.10:$PATH
 PATH=$toolsdir/mosquitto:$PATH
+PATH=$toolsdir/arduino-1.6.8:$PATH
 
 echo --
 echo Environment setup is complete 
@@ -26,6 +27,7 @@ echo Current directory is set to $curr_dir
 echo --
 echo Commands you can use include:
 echo --
+echo "arduino   to run the arduino IDE."
 echo "putty     to connect to other machines."
 echo "git-bash  to use git and do lots of other things."
 echo "node      to run node-JS programs.  E.g.  node your_prog.js"
